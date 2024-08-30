@@ -1,0 +1,14 @@
+const animals: string = 'หมา*แมว*กระต่าย*หมู'
+
+const animalsArray: string[] = animals.split('*')
+
+console.log('เดิม:', animalsArray)
+
+animalsArray.pop() // ดึงตัวสุดท้ายออก (ดึงหมูออก)
+
+console.log('ดึงตัวท้าย: ',animalsArray)
+
+animalsArray.push('กาปิบาร่า')
+
+//["หมา",]
+console.log('ใส่ใหม่: ',animalsArray)
